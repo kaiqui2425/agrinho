@@ -1,9 +1,149 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a8100;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #270e0e;
 }
 
 header {
-    background }
+    background-color: #1ed624;
+    color: #023517;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #0d4b01;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+#home {
+    text-align: center;
+    background-color: #fff6f6;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home .banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4CAF50;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #237a26;
+    color: #155c00;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1b7520;
+}
+
+.image-left, .image-right {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    float: left;
+    margin-right: 2rem;
+}
+
+.image-right {
+    float: right;
+    margin-left: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f7ecec;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(32, 28, 28, 0.1);
+    width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c425250a;
+    border-radius: 4px;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+footer {
+    background-color: #108614;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#sobre{
+    text-align: center;
+ }
